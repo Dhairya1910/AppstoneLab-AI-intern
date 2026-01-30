@@ -1,0 +1,19 @@
+1	NNP	Proper noun, singular
+2	NNPS	Proper noun, plural
+3	PDT	Pre determiner
+4	POS	Possessive ending
+5	PRP	Personal pronoun
+6	PRP$	Possessive pronoun
+7	RB	Adverb
+8	RBR	Adverb, comparative
+9	RBS	Adverb, superlative
+10	RP	Particle
+11	SYM	Symbol (mathematical or scientific)
+12	TO	to
+13	UH	Interjection
+14	VB	Verb, base form
+15	VBD	Verb, past tense
+16	VBG	Verb, gerund/present participle
+17	VBN	Verb, past
+18	WP	Wh-pronoun
+19	WP$	Possessive wh-pronoun
