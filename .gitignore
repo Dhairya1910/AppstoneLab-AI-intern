@@ -2,3 +2,5 @@ Datasets
 ChromaDB
 Day-wise/Day-22/drugsComTest_raw.tsv
 Day-wise/Day-22/drugsComTrain_raw.tsv
+Concept-Wise/Gen-AI/venv
+Concept-Wise/Gen-AI/.env
