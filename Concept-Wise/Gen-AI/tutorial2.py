@@ -1,12 +1,12 @@
 from langchain.agents import create_agent
 from langchain.messages import HumanMessage
-from langchain_openrouter import ChatOpenRouter
+from langchain_mistralai import ChatMistralAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatOpenRouter(
-    model = 'openai/gpt-oss-120b:free',
+model = ChatMistralAI(
+    model = 'mistral-medium-2508',
 )
 
 print('Model loaded successfully.')
