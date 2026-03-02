@@ -1,0 +1,2 @@
+ HumanMessage(content='My fav cricketer is Rohit Sharma')
+ AIMessage(content='Great choice')
