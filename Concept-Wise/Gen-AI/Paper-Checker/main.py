@@ -25,8 +25,8 @@ loader = TextLoader(file_path=file_path)
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size= 3000,
-    chunk_overlap=0
+    chunk_size= 2500,
+    chunk_overlap=500
 )
 
 chunks = text_splitter.split_documents(docs)
@@ -71,7 +71,7 @@ thinking_model = model.with_thinking_mode(enabled=True)
 
 evaluation_model = ChatMistralAI(
     model = "mistral-medium-2508",
-    temperature = 0.5
+    temperature = 0
 )
 
 parser = StrOutputParser()
